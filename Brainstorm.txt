@@ -1,0 +1,23 @@
+Expense Tracker - Love My Money
+- Revenues
+- Expenses
+- Transactions
+	- Edit Revenues or Expenses
+- Categories
+	- Set
+- Accounts
+- Bill reminder (Alerts)
+- Budget
+- Upcoming bills
+
+--------------------------------------------
+
+- Accounts
+	- Transactions
+		- Type: Revenue or Expense
+		- Category
+		- Date
+		- Date Added
+		- Last Updated
+		- Value
+		- Obs.
