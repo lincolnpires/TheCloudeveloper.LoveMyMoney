@@ -40,11 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account.cs" />
-    <Compile Include="Category.cs" />
+    <Compile Include="AggregateRoots\Account.cs" />
+    <Compile Include="ValueObjects\Category.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Transaction.cs" />
-    <Compile Include="TransactionType.cs" />
+    <Compile Include="Entities\Transaction.cs" />
+    <Compile Include="Shared\TransactionType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoveMyMoney.Domain.Abstract\LoveMyMoney.Domain.Abstract.csproj">
+      <Project>{1495d0e5-3f4f-4954-9329-fd5ca15d4fdc}</Project>
+      <Name>LoveMyMoney.Domain.Abstract</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

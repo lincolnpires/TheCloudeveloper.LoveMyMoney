@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution Items", "0. Solution Items", "{436F9A52-5533-4D38-AB13-4C1CAF4D08B7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Solution Items", ".Solution Items", "{436F9A52-5533-4D38-AB13-4C1CAF4D08B7}"
 	ProjectSection(SolutionItems) = preProject
 		Brainstorm.txt = Brainstorm.txt
 	EndProjectSection
@@ -16,13 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infrastructure", "4. Infrastructure", "{D6047384-5081-4B59-8F49-564C579CC51E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveMyMoney.Domain.Entities", "LoveMyMoney.Domain.Entities\LoveMyMoney.Domain.Entities.csproj", "{B5766455-061C-4673-AF6A-6DEA49A38871}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveMyMoney.Domain.ValueObjects", "LoveMyMoney.Domain.ValueObjects\LoveMyMoney.Domain.ValueObjects.csproj", "{565FC309-D0BD-40E7-8B70-64ADE0F10111}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveMyMoney.Domain", "LoveMyMoney.Domain\LoveMyMoney.Domain.csproj", "{B5766455-061C-4673-AF6A-6DEA49A38871}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveMyMoney.Domain.Abstract", "LoveMyMoney.Domain.Abstract\LoveMyMoney.Domain.Abstract.csproj", "{1495D0E5-3F4F-4954-9329-FD5CA15D4FDC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveMyMoney.AggregateRoots", "LoveMyMoney.AggregateRoots\LoveMyMoney.AggregateRoots.csproj", "{57574C0D-9733-429C-B646-DFEF18C27377}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,26 +30,16 @@ Global
 		{B5766455-061C-4673-AF6A-6DEA49A38871}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5766455-061C-4673-AF6A-6DEA49A38871}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5766455-061C-4673-AF6A-6DEA49A38871}.Release|Any CPU.Build.0 = Release|Any CPU
-		{565FC309-D0BD-40E7-8B70-64ADE0F10111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{565FC309-D0BD-40E7-8B70-64ADE0F10111}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{565FC309-D0BD-40E7-8B70-64ADE0F10111}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{565FC309-D0BD-40E7-8B70-64ADE0F10111}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1495D0E5-3F4F-4954-9329-FD5CA15D4FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1495D0E5-3F4F-4954-9329-FD5CA15D4FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1495D0E5-3F4F-4954-9329-FD5CA15D4FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1495D0E5-3F4F-4954-9329-FD5CA15D4FDC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57574C0D-9733-429C-B646-DFEF18C27377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57574C0D-9733-429C-B646-DFEF18C27377}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57574C0D-9733-429C-B646-DFEF18C27377}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57574C0D-9733-429C-B646-DFEF18C27377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B5766455-061C-4673-AF6A-6DEA49A38871} = {CE34459C-DCEA-4352-8F48-F2BB2712B78B}
-		{565FC309-D0BD-40E7-8B70-64ADE0F10111} = {CE34459C-DCEA-4352-8F48-F2BB2712B78B}
 		{1495D0E5-3F4F-4954-9329-FD5CA15D4FDC} = {CE34459C-DCEA-4352-8F48-F2BB2712B78B}
-		{57574C0D-9733-429C-B646-DFEF18C27377} = {CE34459C-DCEA-4352-8F48-F2BB2712B78B}
 	EndGlobalSection
 EndGlobal
