@@ -3,7 +3,7 @@
 namespace LoveMyMoney.Domain.Shared
 {
     /// <summary>
-    /// Represents a type of transaction.
+    /// Determine if the transaction is a revenue or expense.
     /// </summary>
     public enum TransactionType : int
     {
