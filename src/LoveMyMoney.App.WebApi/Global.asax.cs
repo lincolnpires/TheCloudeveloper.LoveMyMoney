@@ -7,7 +7,7 @@ using System.Web.Routing;
 
 namespace LoveMyMoney.App.WebApi
 {
-    public class WebApiApplication : System.Web.HttpApplication
+    public class WebApiApplication : HttpApplication
     {
         protected void Application_Start()
         {
